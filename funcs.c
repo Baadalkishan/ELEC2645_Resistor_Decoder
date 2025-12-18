@@ -119,9 +119,9 @@ static double tolerance_value(const char *c){
 void menu_item_1(void) {
     char b1[32], b2[32], b3[32], b4[32];
     puts("\n>> 4-Band Resistor Decoder");
-    puts("Valid digit colours: black|brown|red|orange|yellow|green|blue|violet|grey|white");
-    puts("Valid multiplier colours: All the above + gold|silver");
-    puts("Valid tolerance colours: brown|red|green|blue|violet|grey|gold|silver");
+    puts("Valid digit colours: black | brown | red | orange | yellow | green | blue | violet | grey | white");
+    puts("Valid multiplier colours: All the above + gold | silver");
+    puts("Valid tolerance colours: brown | red | green | blue | violet | grey | gold | silver");
     
     read_colour(b1, sizeof b1, "Band 1 (digit): ");
     read_colour(b2, sizeof b2, "Band 2 (digit): ");
@@ -152,9 +152,9 @@ void menu_item_2(void) {
 
     char b1[32], b2[32], b3[32], b4[32], b5[32];
     puts("\n>> 5-Band Resistor Decoder");
-    puts("Valid digit colours: black|brown|red|orange|yellow|green|blue|violet|grey|white");
-    puts("Valid multiplier colours: All the above + gold|silver");
-    puts("Valid tolerance colours: brown|red|green|blue|violet|grey|gold|silver");
+    puts("Valid digit colours: black | brown | red | orange | yellow | green | blue | violet | grey | white");
+    puts("Valid multiplier colours: All the above + gold | silver");
+    puts("Valid tolerance colours: brown | red | green | blue | violet | grey | gold | silver");
     
     read_colour(b1, sizeof b1, "Band 1 (digit): ");
     read_colour(b2, sizeof b2, "Band 2 (digit): ");
